@@ -31,6 +31,11 @@ If you want to run or build the ionic project in computer but doesn't have Andro
 Linux:    docker run --rm -v $(pwd):/myApp chiticariu/ionic5 npm install
 Windows:  docker run --rm -v %cd%:/myApp chiticariu/ionic5 npm install
 ```
+- Run docker image in terminal having the code mounted
+```
+Linux:    docker run -it -v $(pwd):/ionic_project chiticariu/ionic5 /bin/bash
+Windows:  docker run -it -v %cd%:/ionic_project chiticariu/ionic5 /bin/bash
+```
 - Preview Ionic web app in your web browser
 ```
 Linux:    docker run --rm -v $(pwd):/myApp -p 8100:8100 chiticariu/ionic5 ionic serve
