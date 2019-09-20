@@ -43,4 +43,5 @@ Windows:  docker run --rm -v %cd%:/myApp chiticariu/ionic5 ionic cordova build a
 ```
 
 References:
+
 (https://github.com/Kusumoto/docker-ionic-android-sdk)
