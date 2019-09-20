@@ -1,7 +1,7 @@
 # docker-ionic-android-sdk
 Docker image include Android SDK for building Ionic5 framework application.
 
-[![Docker Build Status](https://img.shields.io/docker/build/kusumoto/docker-ionic-android-sdk.svg)](https://hub.docker.com/r/kusumoto/docker-ionic-android-sdk/)
+(https://cloud.docker.com/repository/docker/chiticariu/ionic5)
 
 ## Example `.gitlab-ci` file
 ```Dockerfile
